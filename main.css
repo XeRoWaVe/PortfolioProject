@@ -1,0 +1,25 @@
+@font-face {
+    src: url(./resources/fonts/StarcraftNormal.ttf);
+    font-family: starcraft
+}
+
+@font-face {
+    src: url(./resources/fonts/LifeCraft_Font.ttf);
+    font-family: warcraft
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    font-family: Starcraft;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+li {
+    display: inline-flex;
+}
+
