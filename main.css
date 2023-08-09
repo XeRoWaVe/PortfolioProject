@@ -11,6 +11,8 @@
 header {
     display: flex;
     justify-content: space-between;
+    align-content: flex-end;
+    border: 5px solid black;
 }
 
 h1 {
@@ -20,6 +22,11 @@ h1 {
 }
 
 li {
-    display: inline-flex;
+    display: inline;
 }
 
+#profilephoto {
+    width: 5%;
+    height: 5%;
+
+}
