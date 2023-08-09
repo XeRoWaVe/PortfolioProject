@@ -6,36 +6,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./reset.css">
     <link rel="stylesheet" type="text/css" href="./main.css">
+    <script src="https://kit.fontawesome.com/8e27ae1b6a.js" crossorigin="anonymous"></script>
     <script src="main.js"></script>
     <title>Portfolio Website</title>
 </head>
 <body>
     <header>
-        <img src="./resources/images/profile.jpeg" id="profilephoto" title="Aaron Craig" alt="Picture of Aaron Craig">
         <h1>Aaron Craig</h1>
         <nav>
-            <ul>
-                <li>About Me</li>
-                <li>Projects</li>
-                <li>Skills</li>
-                <li>Contact Me</li>
+            <ul class="navigation">
+                <li class="nav-item">
+                    <a href="#about-me">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./contactme.html">Contact Me</a>
+                </li>
             </ul>
         </nav>
     </header>
     <main>
-        <section class="About Me">
-            <h2>About Me</h2>
-            <p id="aboutme">
-                Hey, my name is Aaron. I am an up-and-coming web developer based out of Texas. Extremely excited to learn and grow as a developer. I've always wanted to learn how to code.
-            </p>
+        <section id="about-me">
+            <div class="about-me-container">
+                <div class="about-me-text-container">
+                    <h2>About Me</h2>
+                    <p>
+                        Hey, my name is Aaron. I am an up-and-coming web developer based out of Texas. Extremely excited to learn and grow as a developer. I've always wanted to learn how to code.
+                    </p>
+                </div>
+                <img src="./resources/images/profile.jpeg" id="profilephoto" title="Aaron Craig" alt="Picture of Aaron Craig">
+            </div>
         </section>
-        <section class="Projects">
+        <section id="projects">
             <h2>Projects</h2>
-            
+            <details>
+                <summary class="project-title">
+                    <h3>Portfolio Website</h3>
+                </summary>
+                <img src="" alt="Portfolio Website" class="project-image">
+                <p class="project-description">
+                    A portfolio website that houses all my coding projects.
+                </p>
+            </details>
         </section>
-        <section class="Skills">
+        <section id="skills">
             <h2>Skills</h2>
-            
+            <div class="skills-container">
+
+            </div>
         </section>
     </main>
     <footer>
